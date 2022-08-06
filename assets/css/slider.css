@@ -1,0 +1,22 @@
+.swiper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.swiper-slide {
+    background-position: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    transform: translateY(-100px);
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    color: #fbba00;
+}
+.swiper-pagination-bullet-active{
+    background-color: #fbba00;
+}

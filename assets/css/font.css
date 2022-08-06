@@ -2,3 +2,7 @@
     font-family: "IRANSans";
     src: url("../font/IRAN Sans Regular.otf") format("otf");
 }
+@font-face {
+    font-family: "yekan";
+    src: url("../font/Yekan.woff") format("woff");
+}
