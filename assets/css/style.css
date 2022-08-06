@@ -46,3 +46,21 @@ nav{
     font-size: 1.1rem;
 }
 
+/* slider */
+.swiper-slide div{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-10% , -100%);
+}
+
+.swiper-slide div h1{
+    text-align:right ;
+    color: var(--first--color);
+    font-size: 2rem;
+    line-height: 70px;
+
+}
+.swiper-slide div p{
+    font-size: 1.1rem;
+}

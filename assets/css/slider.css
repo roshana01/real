@@ -5,12 +5,14 @@
 
 .swiper-slide {
     background-position: center;
+    position: relative;
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
     transform: translateY(-100px);
+    filter: brightness(50%);
 }
 
 .swiper-button-next,
