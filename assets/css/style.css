@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 :root {
@@ -6,26 +6,25 @@
     --second--color: #c6c6c6;
     --Third--color: #363636;
     --main--color: #f8f8fff8;
-    --text--color:#8d8d8d;
+    --text--color: #8d8d8d;
 }
-body{
+body {
     direction: rtl;
-    font-family: 'yekan';
+    font-family: "yekan";
 }
-nav{
+nav {
     background-color: #ffffff10;
     backdrop-filter: blur(15px);
 }
-.menu-items li{
-    padding: .5rem 2rem;
-    color:var(--Third--color);
+.menu-items li {
+    padding: 0.5rem 2rem;
+    color: var(--Third--color);
 }
 
-
-.menu-items li a:hover{
-    color:var(--Third--color);
+.menu-items li a:hover {
+    color: var(--Third--color);
 }
-.menu-items  li.active{
+.menu-items li.active {
     background-color: var(--first--color);
     /* padding: .5rem 1.5rem; */
     color: #fff;
@@ -47,20 +46,73 @@ nav{
 }
 
 /* slider */
-.swiper-slide div{
+.swiper-slide div {
     position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-10% , -100%);
+    left: 50%;
+    transform: translate(-10%, -100%);
 }
 
-.swiper-slide div h1{
-    text-align:right ;
+.swiper-slide div h1 {
+    text-align: right;
     color: var(--first--color);
     font-size: 2rem;
     line-height: 70px;
+}
+.swiper-slide div p {
+    font-size: 1.1rem;
+}
+/* main */
+
+main {
+    width: 100%;
+}
+.about-text h1{
+    font-size: 1.5rem;
+    color: var(--Third--color);
 
 }
-.swiper-slide div p{
-    font-size: 1.1rem;
+.about-text h1 span{
+    color: var(--first--color);
+
+}
+.about-text p {
+    line-height:30px;
+    color: var(--Third--color);
+    text-align: justify;
+
+}
+.about-text ul li{
+    margin-bottom: 1rem;
+    color: var(--Third--color);
+
+}
+.about-text ul i{
+  color: var(--first--color);  
+  vertical-align: middle;
+  margin-right: .3rem;
+}
+.serivces .service-card{
+    width: 30%;
+    height: 400px;
+    padding: 0;
+}
+
+.service-card .service-image{
+    width: 100%;
+    height: 55%;
+}
+.service-desc {
+    padding:1.5rem 1rem;
+}
+.service-desc h3{
+    text-align: center;
+    margin-bottom: .5rem;
+    color: var(--first--color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.service-desc p{
+    text-align: center;
+    color: var(--Third--color);
 }
