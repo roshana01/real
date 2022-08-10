@@ -67,52 +67,115 @@ nav {
 main {
     width: 100%;
 }
-.about-text h1{
+.about-text h1 {
     font-size: 1.5rem;
     color: var(--Third--color);
-
 }
-.about-text h1 span{
+.about-text h1 span {
     color: var(--first--color);
-
 }
 .about-text p {
-    line-height:30px;
+    line-height: 30px;
     color: var(--Third--color);
     text-align: justify;
-
 }
-.about-text ul li{
+.about-text ul li {
     margin-bottom: 1rem;
     color: var(--Third--color);
-
 }
-.about-text ul i{
-  color: var(--first--color);  
-  vertical-align: middle;
-  margin-right: .3rem;
+.about-text ul i {
+    color: var(--first--color);
+    vertical-align: middle;
+    margin-right: 0.3rem;
 }
-.serivces .service-card{
+.serivces .service-card {
     width: 30%;
     height: 400px;
     padding: 0;
 }
 
-.service-card .service-image{
+.service-card .service-image {
     width: 100%;
     height: 55%;
 }
 .service-desc {
-    padding:1.5rem 1rem;
+    padding: 1.5rem 1rem;
 }
-.service-desc h3{
+.service-desc h3 {
     text-align: center;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     color: var(--first--color);
     font-size: 1.2rem;
     font-weight: bold;
 }
-.service-desc p{
+.service-desc p {
     text-align: center;
     color: var(--Third--color);
+}
+
+.home {
+    width: 23%;
+    height: 250px;
+    margin: 0.5rem;
+}
+
+.home img {
+    width: 100%;
+    height: 100%;
+}
+.employers {
+    width: 100%;
+    height: 400px;
+    background-image: url("/assets/img/testimonial-bg.jpg");
+    background-size: 100% 100%;
+}
+
+.container .employers-title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--first--color);
+   
+}
+.employer-info {
+    width: 45%;
+    background-color: #fff;
+    padding: 2rem;
+    position: relative;
+}
+.employer-info p:first-child {
+    color: #8d8d8d;
+    text-align: justify;
+    padding: 0.7rem 0;
+}
+.employer-info p:last-child {
+    font-size: 0.8rem;
+}
+
+.employer-info h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* .employer-info p:before {
+    content: "\f10d";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: -5px;
+    left: -29px;
+    color: rgba(253, 194, 54, 0.34);
+    font-size: 43px;
+    font-style: normal;
+} */
+.employer-image{
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    bottom: -18%;
+    left: 10%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid var(--first--color);
+}
+.employer-image img{
+    width: 100%;
 }
