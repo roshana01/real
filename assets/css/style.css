@@ -112,7 +112,7 @@ main {
     text-align: center;
     color: var(--Third--color);
 }
-section .home-title{
+section .home-title {
     font-size: 1.5rem;
     text-align: center;
     color: var(--first--color);
@@ -139,7 +139,6 @@ section .home-title{
     text-align: center;
     font-size: 2rem;
     color: var(--first--color);
-   
 }
 .employer-info {
     width: 45%;
@@ -171,7 +170,7 @@ section .home-title{
     font-size: 43px;
     font-style: normal;
 } */
-.employer-image{
+.employer-image {
     width: 95px;
     height: 95px;
     position: absolute;
@@ -181,11 +180,11 @@ section .home-title{
     overflow: hidden;
     border: 3px solid var(--first--color);
 }
-.employer-image img{
+.employer-image img {
     width: 100%;
 }
 
-.experts h3{
+.experts h3 {
     text-align: center;
     font-size: 1.3rem;
     margin-bottom: 1.3rem;
@@ -197,25 +196,69 @@ section .home-title{
     height: 400px;
 }
 
-.experts .expert-card .card-image{
+.experts .expert-card .card-image {
     width: 100%;
     height: 60%;
     overflow: hidden;
 }
 
-.experts .expert-card .card-image img{
+.experts .expert-card .card-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.experts .expert-card .card-desc{
+.experts .expert-card .card-desc {
     height: 40%;
 }
 
-.experts .expert-card .card-desc h4{
+.experts .expert-card .card-desc h4 {
     font-size: 1.2rem;
     font-weight: bold;
     color: var(--Third--color);
+}
+/* footer */
 
+footer {
+    width: 100%;
+    background-image: url("/assets/img/footer-bg.jpg");
+    height: 310px;
+}
+.bg-img {
+    width: 85px;
+    height: 85px;
+}
+.bg-img img {
+    width: 100%;
+}
+.contact {
+    width: 30%;
+}
+.contact i {
+    font-size: 1.5rem;
+}
+.contact-info {
+    width: 30%;
+    padding-top: 5rem;
+}
+.contact-info h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--first--color);
+    margin-bottom: 0.6rem;
+}
+.contact-info h2 i {
+    padding: 0.5rem;
+}
+.contact-info li i {
+    padding: 0.5rem;
+    color: var(--first--color);
+}
+
+footer li:hover {
+    color: var(--first--color);
+}
+
+footer a:hover {
+    color: var(--first--color);
 }
