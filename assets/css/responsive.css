@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     nav {
         display: none;
     }
@@ -6,7 +6,7 @@
         height: 450px;
     }
     .swiper-slide img {
-        transform: translateY(-90px);
+        transform: translateY(-70px);
     }
     .swiper-slide div {
         transform: translate(-10%, -69%);
@@ -14,11 +14,11 @@
     .swiper-slide div h1 {
         text-align: right;
         color: var(--first--color);
-        line-height: 50px;
-        font-size: 1.2rem;
+        line-height: 65px;
+        font-size: 2rem;
     }
     .swiper-slide div p {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     .swiper-button-next:after,
     .swiper-button-prev:after {
@@ -26,11 +26,82 @@
     }
 
 }
+/* @media screen and (max-width: 1200px) {
+    nav {
+        display: none;
+    }
+    .swiper {
+        height: 300px;
+    }
+    .swiper-slide img {
+        transform: translateY(-70px);
+    }
+    .swiper-slide div {
+        transform: translate(-10%, -69%);
+    }
+    .swiper-slide div h1 {
+        text-align: right;
+        color: var(--first--color);
+        line-height: 65px;
+        font-size: 2rem;
+    }
+    .swiper-slide div p {
+        font-size: 1.2rem;
+    }
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 1.8rem;
+    }
+
+} */
 @media screen and (max-width: 992px) {
+    .swiper-slide div {
+        transform: translate(-22%, -70%);
+    }
+    .swiper-slide div h1 {
+        text-align: right;
+        color: var(--first--color);
+        line-height: 50px;
+        font-size: 1.8rem;
+    }
+    .swiper-slide div p {
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width: 768px) {  
        .swiper {
         height: 350px;
+    }
+    .swiper-slide div {
+        transform: translate(-22%, -69%);
+    }
+    .swiper-slide div h1 {
+        text-align: right;
+        color: var(--first--color);
+        line-height: 50px;
+        font-size: 1.5rem;
+    }
+    .swiper-slide div p {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .swiper {
+        height: 240px;
+    }
+    .swiper-slide div h1 {
+        text-align: right;
+        color: var(--first--color);
+        line-height: 50px;
+        font-size: 1rem;
+    }
+    .swiper-slide div p {
+        font-size: 0.7rem;
+    }
+    .swiper-slide img {
+        transform: translateY(-75px);
     }
     .swiper-slide div {
         transform: translate(-22%, -69%);
