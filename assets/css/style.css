@@ -1,6 +1,22 @@
 * {
     box-sizing: border-box;
 }
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.4rem;
+}
+h5{
+    font-size: 1.2rem;
+}
 :root {
     --first--color: #fbba00;
     --second--color: #c6c6c6;
@@ -149,7 +165,6 @@ nav {
 .swiper-slide div h1 {
     text-align: right;
     color: var(--first--color);
-    font-size: 2rem;
     line-height: 70px;
 }
 .swiper-slide div p {
@@ -161,7 +176,6 @@ main {
     width: 100%;
 }
 .about-text h1 {
-    font-size: 1.5rem;
     color: var(--Third--color);
 }
 .about-text h1 span {
@@ -199,11 +213,10 @@ main {
 .service-card:hover {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }
-.service-desc h3 {
+.service-desc h4 {
     text-align: center;
     margin-bottom: 0.5rem;
     color: var(--first--color);
-    font-size: 1.2rem;
     font-weight: bold;
 }
 .service-desc p {
@@ -250,7 +263,6 @@ section .home-title {
 
 .container .employers-title {
     text-align: center;
-    font-size: 2rem;
     color: var(--first--color);
 }
 .employer-info {
@@ -269,7 +281,6 @@ section .home-title {
 }
 
 .employer-info h2 {
-    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -308,7 +319,6 @@ section .home-title {
 
 .experts h3 {
     text-align: center;
-    font-size: 1.5rem;
     margin-bottom: 1.3rem;
     color: var(--first--color);
 }
@@ -340,8 +350,7 @@ section .home-title {
     height: 40%;
 }
 
-.experts .expert-card .card-desc h4 {
-    font-size: 1.2rem;
+.experts .expert-card .card-desc h5{
     font-weight: bold;
     color: var(--Third--color);
     border-bottom: 2px solid var(--first--color);
@@ -374,13 +383,12 @@ footer {
     width: 30%;
     padding-top: 5rem;
 }
-.contact-info h2 {
-    font-size: 1.2rem;
+.contact-info h4 {
     font-weight: bold;
     color: var(--first--color);
     margin-bottom: 0.6rem;
 }
-.contact-info h2 i {
+.contact-info h4 i {
     padding: 0.5rem;
 }
 .contact-info li i {
@@ -407,11 +415,10 @@ footer {
 .video-card:hover {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }
-.video-desc h3 {
+.video-desc h4 {
     text-align: center;
     margin-bottom: 0.5rem;
     color: var(--first--color);
-    font-size: 1.2rem;
     font-weight: bold;
 }
 .video-desc p {
