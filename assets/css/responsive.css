@@ -1,4 +1,4 @@
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
     /* header */
     nav {
         display: none;
@@ -10,7 +10,7 @@
 
     .swiper-slide img {
         object-fit: fill;
-        transform: translateY(-30px)!important;
+        transform: translateY(-30px) !important;
     }
 
     /* text */
@@ -20,21 +20,21 @@
         width: 100%;
     }
     .swiper-slide div h1 {
-      font-size: 1rem;
-      white-space:nowrap;
-      line-height: 50px;
+        font-size: 1rem;
+        white-space: nowrap;
+        line-height: 50px;
     }
     .swiper-slide div p {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
     /* meno */
     .menu-btn {
         display: flex;
-        flex-flow:column wrap ;
-    } 
+        flex-flow: column wrap;
+    }
 }
-@media screen and (max-width: 414px) {
-     /* header */
+@media screen and (max-width: 480px) {
+    /* header */
     nav {
         display: none;
     }
@@ -59,25 +59,61 @@
         width: 70%;
     }
     .swiper-slide div h1 {
-      font-size: 1.2rem;
-      /* white-space:nowrap; */
-      line-height: 50px;
+        font-size: 1.2rem;
+        /* white-space:nowrap; */
+        line-height: 50px;
     }
     .swiper-slide div p {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
     /* meno */
     .menu-btn {
         display: flex;
-        flex-flow:column wrap ;
+        flex-flow: column wrap;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    /* header-menu */
+    nav .container{
+        margin: 0;
+        height: 45px;
+    }
+    .menu-items li{
+        padding:.5rem 1.3rem !important;
+    }
+    .menu-logo{
+        width: 27%;
+    }
+    .menu-logo img {
+        width: 54px;
+        height: 54px;
+    }
+    /* slider */
+    .swiper {
+        height: 300px;
+    }
+    
+    .swiper-slide img {
+        object-fit: fill;
+        transform: translateY(-50px);
+    }
+    /* font */
+    .swiper-slide div {
+        transform: translate(-45%, -60%);
+        width: 70%;
+    }
+    .swiper-slide div h1 {
+        font-size: 2rem;
+        white-space:nowrap;
+        line-height: 50px;
+    }
+    .swiper-slide div p {
+        font-size:1rem;
     }
 
 }
-
-/* @media screen  and (max-width:650px){
-    
-}
-@media screen  and (max-width:820px){
+/* @media screen  and (max-width:820px){
     
 }
 @media screen  and (max-width:1024px){
@@ -85,4 +121,4 @@
 }
 @media screen  and (max-width:1240px){
     
-} */
+}  */
