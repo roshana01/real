@@ -74,7 +74,7 @@
         width: 70%;
     }
     .swiper-slide div h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
         white-space:nowrap;
         line-height: 50px;
     }
@@ -124,7 +124,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
     /* header */
     nav {
         display: none;
@@ -142,11 +142,11 @@
     /* text */
 
     .swiper-slide div {
-        transform: translate(-45%, -60%);
-        width: 100%;
+        transform: translate(-40%, -60%);
+        width: 70%;
     }
     .swiper-slide div h1 {
-        font-size: 1rem;
+        font-size: .9rem;
         white-space: nowrap;
         line-height: 50px;
     }
