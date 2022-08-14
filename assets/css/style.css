@@ -159,7 +159,8 @@ nav {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-10%, -100%);
+    transform: translate(-25%, -100%);
+    width: 55%;
 }
 
 .swiper-slide div h1 {
@@ -532,7 +533,7 @@ footer a:hover {
 }
 
 .side-menu .nav-item:hover {
-    background-color: rgba(204, 204, 204, 0.253)
+    background-color: rgba(204, 204, 204, 0.253);
 
 }
 .side-menu .btn {
