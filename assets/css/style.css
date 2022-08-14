@@ -2,19 +2,19 @@
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     font-size: 2rem;
 }
-h2{
+h2 {
     font-size: 1.8rem;
 }
-h3{
+h3 {
     font-size: 1.6rem;
 }
-h4{
+h4 {
     font-size: 1.4rem;
 }
-h5{
+h5 {
     font-size: 1.2rem;
 }
 :root {
@@ -37,7 +37,7 @@ h5{
     background: #fff;
     z-index: 999;
     opacity: 1;
-    transition: opacity .7s;
+    transition: opacity 0.7s;
 }
 
 /* From uiverse.io by @gagan-gv */
@@ -74,7 +74,7 @@ h5{
 .l2::before {
     animation: anticlockwiseZ 2.5s infinite;
 }
-.disable{
+.disable {
     opacity: 0;
 }
 @keyframes clockwiseZ {
@@ -249,7 +249,6 @@ section .home-title {
     transition: all 0.4s;
 }
 
-
 .home img:hover {
     filter: brightness(50%);
 }
@@ -307,12 +306,12 @@ section .home-title {
 .employer-image img {
     width: 100%;
 }
-.line{
+.line {
     width: 100%;
     height: 60px;
     /* background-color: var(--first--color); */
 }
-.line .line-title{
+.line .line-title {
     font-size: 1.3rem;
     color: #4e4e4e;
 }
@@ -350,7 +349,7 @@ section .home-title {
     height: 40%;
 }
 
-.experts .expert-card .card-desc h5{
+.experts .expert-card .card-desc h5 {
     font-weight: bold;
     color: var(--Third--color);
     border-bottom: 2px solid var(--first--color);
@@ -396,7 +395,6 @@ footer {
     color: var(--first--color);
 }
 
-
 .videos .video-card {
     width: 30%;
     height: 400px;
@@ -434,59 +432,186 @@ footer a:hover {
     color: var(--first--color);
 }
 
-
 /* wave */
 /* Wave */
 
 .waves {
-	position: relative;
-	width: 100%;
-	height: 15vh;
-	margin-top: -7px;
-	min-height: 100px;
-	max-height: 150px;
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-top: -7px;
+    min-height: 100px;
+    max-height: 150px;
 }
 
 .parallax > use:nth-child(1) {
-	fill: rgba(251, 186, 0, 0.7);
-	animation-delay: -2s;
-	animation-duration: 16s;
+    fill: rgba(251, 186, 0, 0.7);
+    animation-delay: -2s;
+    animation-duration: 16s;
 }
 .parallax > use:nth-child(2) {
-	fill: rgba(251, 186, 0, 0.5);
-	animation-delay: -3s;
-	animation-duration: 10s;
+    fill: rgba(251, 186, 0, 0.5);
+    animation-delay: -3s;
+    animation-duration: 10s;
 }
 .parallax > use:nth-child(3) {
-	fill: rgba(251, 186, 0, 0.3);
-	animation-delay: -4s;
-	animation-duration: 13s;
+    fill: rgba(251, 186, 0, 0.3);
+    animation-delay: -4s;
+    animation-duration: 13s;
 }
 .parallax > use:nth-child(4) {
-	fill: rgb(251, 186, 0);
-	animation-delay: -5s;
-	animation-duration: 20s;
+    fill: rgb(251, 186, 0);
+    animation-delay: -5s;
+    animation-duration: 20s;
 }
 
 .parallax > use {
-	animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
-	-webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+    -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5)
+        infinite;
 }
 
 @keyframes move-forever {
-	0% {
-		transform: translate3d(-90px, 0, 0);
-		-webkit-transform: translate3d(-90px, 0, 0);
-		-moz-transform: translate3d(-90px, 0, 0);
-		-ms-transform: translate3d(-90px, 0, 0);
-		-o-transform: translate3d(-90px, 0, 0);
-	}
+    0% {
+        transform: translate3d(-90px, 0, 0);
+        -webkit-transform: translate3d(-90px, 0, 0);
+        -moz-transform: translate3d(-90px, 0, 0);
+        -ms-transform: translate3d(-90px, 0, 0);
+        -o-transform: translate3d(-90px, 0, 0);
+    }
 
-	100% {
-		transform: translate3d(85px, 0, 0);
-		-webkit-transform: translate3d(85px, 0, 0);
-		-moz-transform: translate3d(85px, 0, 0);
-		-ms-transform: translate3d(85px, 0, 0);
-		-o-transform: translate3d(85px, 0, 0);
-	}
+    100% {
+        transform: translate3d(85px, 0, 0);
+        -webkit-transform: translate3d(85px, 0, 0);
+        -moz-transform: translate3d(85px, 0, 0);
+        -ms-transform: translate3d(85px, 0, 0);
+        -o-transform: translate3d(85px, 0, 0);
+    }
+}
+
+.side-menu {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #fff;
+    transition: all 1s;
+    z-index: 901;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    visibility: hidden;
+}
+
+.side-menu.active {
+    right: 0;
+    visibility: visible;
+}
+.side-menu ul a {
+    color: var(--first--color);
+}
+
+.side-menu ul a:hover {
+    color: rgba(253, 194, 54, 0.34);
+
+}
+
+.side-menu .nav-link {
+    padding: 15px 20px;
+}
+
+.side-menu .nav-item {
+    border-bottom: 1px solid #2222223b;
+    transition: background 0.9s;
+    -webkit-transition: background 0.9s;
+    -moz-transition: background 0.9s;
+    -ms-transition: background 0.9s;
+    -o-transition: background 0.9s;
+}
+
+.side-menu .nav-item:hover {
+    background-color: rgba(204, 204, 204, 0.253)
+
+}
+.side-menu .btn {
+    width: 90%;
+    margin: 60% 15px 0;
+    padding: 10px;
+}
+
+.side-menu-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fffdfd10;
+    opacity: 0;
+    backdrop-filter: blur(0);
+    transition: all 1s;
+    z-index: 900;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    visibility: hidden;
+}
+
+.side-menu-overlay.active {
+    visibility: visible;
+    opacity: 1;
+    backdrop-filter: blur(3px);
+}
+
+.side-menu .close-button {
+    color: var(--first--color);
+    text-align: center;
+    width: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.side-menu .close-button:hover {
+    color: var(--first--color);
+    text-shadow: 0px 0px 10px var(--first--color);
+}
+
+.menu-btn {
+    position: absolute;
+    z-index: 800;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.menu-btn span {
+    width: 25px;
+    height: 2px;
+    background-color: var(--Third--color);
+    margin: 2px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.side-menu .icon {
+    display: flex;
+	width: 68px;
+	height: 68px;
+    overflow:hidden ;
+}
+
+.side-menu .icon img {
+	width: 100%;
 }
