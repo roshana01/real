@@ -124,7 +124,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 350px) {
     /* header */
     nav {
         display: none;
