@@ -162,6 +162,23 @@
         width: 29% !important;
         height: 175px !important;
     }
+
+    .employers {
+        height: fit-content;
+    }
+
+    .emp-row {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .employer-info {
+        width: 100%;
+        margin: 3rem 0;
+    }
+    .employer-info p {
+        margin-bottom: 1rem;
+    }
 }
 @media screen and (max-width: 680px) {
     /* header-menu */
@@ -270,12 +287,17 @@
         width: 44% !important;
         height: 130px !important;
     }
-    .mt-20 , .mt-24{
+    .mt-20,
+    .mt-24 {
         margin-top: 1.5rem;
     }
     .about-image {
         width: 70%;
         margin-top: 2rem;
+    }
+    .employer-info .employer-image {
+        left: 50%;
+        transform: translate(-50%);
     }
 }
 
