@@ -48,6 +48,10 @@
     .swiper-button-prev::after {
         font-size: 3.5rem;
     }
+    /* meno */
+    main .container{
+        margin: .5rem;
+    }
 }
 @media screen and (max-width: 834px) {
     .menu-logo {
@@ -235,4 +239,7 @@
         display: flex;
         flex-flow: column wrap;
     }
+
+    /* mean */
+
 }
