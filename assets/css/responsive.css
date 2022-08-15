@@ -1,9 +1,9 @@
 @media screen and (max-width: 1224px) {
-     /* slider */
-     .swiper {
+    /* slider */
+    .swiper {
         height: 500px;
     }
-  
+
     .swiper-slide div {
         transform: translate(-20%, -60%);
         width: 50%;
@@ -49,8 +49,8 @@
         font-size: 3.5rem;
     }
     /* meno */
-    main .container{
-        margin: .5rem;
+    .about-text{
+        width: 60%;
     }
 }
 @media screen and (max-width: 834px) {
@@ -85,6 +85,19 @@
     .swiper-button-next::after,
     .swiper-button-prev::after {
         font-size: 3rem;
+    }
+    /* main */
+    .about .px-16{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .about-image{
+        width: 60%;
+        margin-top: 2rem;
     }
 }
 
@@ -123,6 +136,9 @@
     .swiper-button-prev::after {
         font-size: 2.8rem;
     }
+
+    /* main */
+  
 }
 @media screen and (max-width: 680px) {
     /* header-menu */
@@ -162,7 +178,6 @@
     .swiper-slide div p {
         font-size: 1rem;
     }
-   
 }
 
 @media screen and (max-width: 480px) {
@@ -241,5 +256,4 @@
     }
 
     /* mean */
-
 }
