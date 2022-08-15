@@ -119,6 +119,11 @@
         width: 31% !important;
         height: 200px !important;
     }
+    .employer-info {
+       
+        padding: .9rem 1.5rem;
+       
+    }
 }
 
 @media screen and (max-width: 768px) {
