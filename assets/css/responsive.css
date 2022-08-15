@@ -138,6 +138,7 @@
     }
 
     /* main */
+
   
 }
 @media screen and (max-width: 680px) {
@@ -217,6 +218,14 @@
     .menu-btn {
         display: flex;
         flex-flow: column wrap;
+    }
+    /*main */
+    .about ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about ul li{
+        width: fit-content;
     }
 }
 
