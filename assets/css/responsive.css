@@ -49,7 +49,7 @@
         font-size: 3.5rem;
     }
     /* meno */
-    .about-text{
+    .about-text {
         width: 60%;
     }
 }
@@ -87,7 +87,7 @@
         font-size: 3rem;
     }
     /* main */
-    .about .px-16{
+    .about .px-16 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -95,9 +95,17 @@
     .about-text {
         width: 100%;
     }
-    .about-image{
+    .about-image {
         width: 60%;
         margin-top: 2rem;
+    }
+
+    .serivces .row {
+        flex-wrap: wrap;
+    }
+    .service-card {
+        margin: 1rem 0.5rem;
+        width: 40% !important;
     }
 }
 
@@ -138,8 +146,6 @@
     }
 
     /* main */
-
-  
 }
 @media screen and (max-width: 680px) {
     /* header-menu */
@@ -178,6 +184,10 @@
     }
     .swiper-slide div p {
         font-size: 1rem;
+    }
+    .service-card {
+        margin: 1rem 0.5rem;
+        width: 47% !important;
     }
 }
 
@@ -220,13 +230,23 @@
         flex-flow: column wrap;
     }
     /*main */
-    .about ul{
+    .about ul {
         flex-direction: column;
         align-items: center;
     }
-    .about ul li{
+    .about ul li {
         width: fit-content;
     }
+
+    .serivces{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .service-card {
+        width: 90% !important;
+    }
+
 }
 
 @media screen and (max-width: 380px) {
@@ -265,4 +285,8 @@
     }
 
     /* mean */
+    .service-card {
+        margin: 1rem 0;
+        width: 100% !important;
+    }
 }
