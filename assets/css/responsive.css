@@ -20,6 +20,10 @@
     .swiper-button-prev::after {
         font-size: 4rem;
     }
+    .home {
+        width: 30% !important;
+        height: 275px !important;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -51,6 +55,10 @@
     /* meno */
     .about-text {
         width: 60%;
+    }
+    .home {
+        width: 31%;
+        height: 255px;
     }
 }
 @media screen and (max-width: 834px) {
@@ -87,7 +95,7 @@
         font-size: 3rem;
     }
     /* main */
-    .about .px-16 {
+    .about .px-10 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -106,6 +114,10 @@
     .service-card {
         margin: 1rem 0.5rem;
         width: 40% !important;
+    }
+    .home {
+        width: 31% !important;
+        height: 200px !important;
     }
 }
 
@@ -146,6 +158,10 @@
     }
 
     /* main */
+    .home {
+        width: 29% !important;
+        height: 175px !important;
+    }
 }
 @media screen and (max-width: 680px) {
     /* header-menu */
@@ -188,6 +204,10 @@
     .service-card {
         margin: 1rem 0.5rem;
         width: 47% !important;
+    }
+    .home {
+        width: 29% !important;
+        height: 175px !important;
     }
 }
 
@@ -238,7 +258,7 @@
         width: fit-content;
     }
 
-    .serivces{
+    .serivces {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -246,7 +266,13 @@
     .service-card {
         width: 90% !important;
     }
-
+    .home {
+        width: 44% !important;
+        height: 130px !important;
+    }
+    .mt-20 , .mt-24{
+        margin-top: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -288,5 +314,10 @@
     .service-card {
         margin: 1rem 0;
         width: 100% !important;
+    }
+    .home {
+        width: 100% !important;
+        height: 260px !important;
+        margin: 1rem 0;
     }
 }

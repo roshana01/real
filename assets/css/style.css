@@ -246,7 +246,7 @@ section .home-title {
     overflow: hidden;
     position: relative;
     width: 23%;
-    height: 250px;
+    height: 280px;
     margin: 0.5rem;
 }
 
@@ -403,8 +403,8 @@ footer {
 }
 
 .videos .video-card {
-    width: 30%;
-    height: 400px;
+    width: 29%;
+    height: 420px;
     padding: 0;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
