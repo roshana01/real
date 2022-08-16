@@ -60,6 +60,22 @@
         width: 31%;
         height: 255px;
     }
+    .experts .expert-row {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .experts .expert-card {
+        width: 45%;
+        margin: 1rem 0;
+    }
+
+    .experts .expert-card h5{
+        padding: .5rem 0;
+    }
+    .waves {
+        height: 1vh;
+        margin-top: -15px;
+    }
 }
 @media screen and (max-width: 834px) {
     .menu-logo {
@@ -120,9 +136,19 @@
         height: 200px !important;
     }
     .employer-info {
-       
-        padding: .9rem 1.5rem;
-       
+        padding: 0.9rem 1.5rem;
+    }
+
+    .videos .row {
+        flex-wrap: wrap;
+    }
+    .videos .video-card {
+        width: 45%;
+        margin: 1rem 0;
+    }
+    .waves {
+        height:5vh;
+        margin-top: 2px;
     }
 }
 
@@ -183,6 +209,11 @@
     }
     .employer-info p {
         margin-bottom: 2rem;
+    }
+ 
+    .waves {
+        height: 1vh;
+        margin-top: 3px;
     }
 }
 @media screen and (max-width: 680px) {
@@ -304,6 +335,17 @@
         left: 50%;
         transform: translate(-50%);
     }
+    .experts .expert-card {
+        width: 95%;
+    }
+    .videos .video-card {
+        width: 95%;
+        margin: 1rem 0;
+    }
+    .waves {
+        height: 1vh;
+        margin-top: 3px;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -350,5 +392,9 @@
         width: 100% !important;
         height: 260px !important;
         margin: 1rem 0;
+    }
+    .waves {
+        height: 1vh;
+        margin-top: 2px;
     }
 }
