@@ -368,8 +368,10 @@ section .home-title {
 /* footer */
 footer {
     width: 100%;
-    background-image: url("../img/footer-bg.jpg");
     height: 310px;
+    background-image: url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bg-img {
     width: 85px;
