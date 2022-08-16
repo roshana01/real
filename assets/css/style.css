@@ -194,7 +194,8 @@ main {
 .about-text ul i {
     color: var(--first--color);
     vertical-align: middle;
-    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    vertical-align: middle;
 }
 .serivces .service-card {
     width: 30%;
@@ -331,7 +332,7 @@ section .home-title {
 
 .experts .expert-card {
     width: 24%;
-    height: 400px;
+    height: fit-content;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
     transition: all 0.3s;
@@ -354,6 +355,7 @@ section .home-title {
 
 .experts .expert-card .card-desc {
     height: 40%;
+    padding: .5rem 1rem;
 }
 
 .experts .expert-card .card-desc h5 {
@@ -361,9 +363,11 @@ section .home-title {
     color: var(--Third--color);
     border-bottom: 2px solid var(--first--color);
     margin-bottom: 0.5rem;
+    padding: .5rem;
 }
 .card-desc p {
     text-align: center;
+    padding-bottom: 1rem;
 }
 /* footer */
 footer {
@@ -405,7 +409,7 @@ footer {
 
 .videos .video-card {
     width: 29%;
-    height: fit-content;
+    height: 100%;
     padding: 0;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
