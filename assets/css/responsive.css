@@ -370,7 +370,9 @@
         flex-direction: column;
         align-items: center;
     }
-
+    .contact p {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 380px) {

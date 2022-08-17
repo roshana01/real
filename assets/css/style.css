@@ -204,6 +204,8 @@ main {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
     transition: all 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .service-card .service-image {
     width: 100%;
@@ -217,6 +219,7 @@ main {
 }
 .service-desc {
     padding: 1.5rem 1rem;
+    
 }
 .service-card:hover {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
@@ -277,6 +280,7 @@ section .home-title {
     background-color: #fff;
     padding: 2rem;
     position: relative;
+    border-radius: 5px;
 }
 .employer-info p:first-child {
     color: #8d8d8d;
@@ -336,6 +340,8 @@ section .home-title {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
     transition: all 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .experts .expert-card:hover {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
@@ -372,7 +378,7 @@ section .home-title {
 /* footer */
 footer {
     width: 100%;
-    height: 310px;
+    height: fit-content;
     background-image: url("../img/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -385,7 +391,10 @@ footer {
     width: 100%;
 }
 .contact {
-    width: 30%;
+    width: 45%;
+}
+.contact p {
+    text-align: justify;
 }
 .contact i {
     font-size: 1.5rem;
@@ -414,6 +423,8 @@ footer {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
     transition: all 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .video-card .video-image {
     width: 100%;
