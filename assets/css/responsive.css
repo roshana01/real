@@ -308,7 +308,8 @@
         align-items: center;
     }
     .about ul li {
-        width: fit-content;
+        width: 225px;    
+        text-align: right;
     }
 
     .serivces {
