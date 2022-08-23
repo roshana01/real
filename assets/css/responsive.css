@@ -2,6 +2,9 @@
     .service-card , .expert-card , .video-card{
         height: 550px;
     }
+    .swiper {
+        height: 900px;
+    }
 }
 
 
