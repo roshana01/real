@@ -1,3 +1,10 @@
+@media screen and (min-width : 1225px) {
+    .service-card , .expert-card , .video-card{
+        height: 550px;
+    }
+}
+
+
 @media screen and (max-width: 1224px) {
     /* slider */
     .swiper {
