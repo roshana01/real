@@ -1,14 +1,10 @@
-@media screen and (min-width : 1225px) {
-    .service-card , .expert-card , .video-card{
-        height: 550px;
-    }
-    .swiper {
-        height: 900px;
-    }
-}
 
 
 @media screen and (max-width: 1224px) {
+    .service-card , .expert-card , .video-card{
+        height: fit-content;
+    }
+    
     /* slider */
     .swiper {
         height: 500px;
@@ -434,5 +430,14 @@
     .waves {
         height: 1vh;
         margin-top: 2px;
+    }
+}
+
+@media screen and (min-width : 1225px) {
+    .swiper {
+        height: 900px;
+    }
+    .waves {
+        margin-top: -59px;
     }
 }
