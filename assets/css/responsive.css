@@ -1,10 +1,4 @@
-
-
 @media screen and (max-width: 1224px) {
-    .service-card , .expert-card , .video-card{
-        height: fit-content;
-    }
-    
     /* slider */
     .swiper {
         height: 500px;
@@ -30,6 +24,10 @@
         width: 30% !important;
         height: 275px !important;
     }
+    .service-card{
+        height: 560px;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -135,7 +133,7 @@
     }
     .service-card {
         margin: 1rem 0.5rem;
-        width: 40% !important;
+        width: 45% !important;
     }
     .home {
         width: 31% !important;
@@ -304,6 +302,11 @@
         font-size: 0.8rem;
     }
     /* meno */
+    .service-card,
+    .expert-card,
+    .video-card {
+        height: fit-content;
+    }
     .menu-btn {
         display: flex;
         flex-flow: column wrap;
@@ -314,7 +317,7 @@
         align-items: center;
     }
     .about ul li {
-        width: 225px;    
+        width: 225px;
         text-align: right;
     }
 
@@ -433,7 +436,7 @@
     }
 }
 
-@media screen and (min-width : 1225px) {
+@media screen and (min-width: 1440px) {
     .swiper {
         height: 900px;
     }
