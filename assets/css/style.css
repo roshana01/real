@@ -102,7 +102,7 @@ h5 {
 /* loding-top */
 body {
     direction: rtl;
-    font-family: "yekan";
+    font-family: "yekan" , Tahoma;
     scroll-behavior: smooth;
 }
 /* scrollBar */
@@ -290,8 +290,9 @@ section .home-title {
     font-size: 0.8rem;
 }
 
-.employer-info h2 {
+.employer-info h5 {
     font-weight: bold;
+    margin-bottom: .7rem;
 }
 
 /* .employer-info p:before {
@@ -335,6 +336,7 @@ section .home-title {
 
 .experts .expert-card {
     width: 24%;
+    height: 400px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
     transition: all 0.3s;
@@ -347,7 +349,7 @@ section .home-title {
 
 .experts .expert-card .card-image {
     width: 100%;
-    height: 60%;
+    height: 50%;
     overflow: hidden;
 }
 

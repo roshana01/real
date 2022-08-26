@@ -24,10 +24,9 @@
         width: 30% !important;
         height: 275px !important;
     }
-    .service-card{
+    .service-card {
         height: 560px;
     }
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -438,9 +437,13 @@
 
 @media screen and (min-width: 1440px) {
     .swiper {
-        height: 900px;
+        height: 100vh;
     }
     .waves {
         margin-top: -59px;
+    }
+    .swiper-slide img {
+        transform: translateY(0);
+        object-fit: fill;
     }
 }
