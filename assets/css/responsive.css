@@ -1,3 +1,18 @@
+
+@media screen and (min-width: 1440px) {
+    .swiper {
+        height: 100vh;
+    }
+    .waves {
+        margin-top: -59px;
+    }
+    .swiper-slide img {
+        transform: translateY(0);
+        object-fit: fill;
+    }
+}
+
+
 @media screen and (max-width: 1224px) {
     /* slider */
     .swiper {
@@ -432,18 +447,5 @@
     .waves {
         height: 1vh;
         margin-top: 2px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .swiper {
-        height: 100vh;
-    }
-    .waves {
-        margin-top: -59px;
-    }
-    .swiper-slide img {
-        transform: translateY(0);
-        object-fit: fill;
     }
 }
