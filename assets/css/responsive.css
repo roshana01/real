@@ -323,7 +323,7 @@
     .service-card,
     .expert-card,
     .video-card {
-        height: fit-content;
+        height: fit-content !important;
     }
     .menu-btn {
         display: flex;
