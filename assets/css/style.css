@@ -415,7 +415,9 @@ footer {
     padding: 0.5rem;
     color: var(--first--color);
 }
-
+.videos {
+    margin-top: .5rem;
+}
 .videos .video-card {
     width: 29%;
     padding: 0;
@@ -468,7 +470,6 @@ footer a:hover {
     position: relative;
     width: 100%;
     height: 15vh;
-    margin-top: -13px;
     min-height: 100px;
     max-height: 150px;
 }

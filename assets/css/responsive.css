@@ -3,9 +3,6 @@
     .swiper {
         height: 100vh;
     }
-    .waves {
-        margin-top: -59px;
-    }
     .swiper-slide img {
         transform: translateY(0);
         object-fit: fill;
@@ -74,6 +71,12 @@
     .about-text {
         width: 60%;
     }
+    .service-card{
+        height: 500px;
+    }
+    .service-card .service-image {
+        height: 40%;
+    }
     .home {
         width: 31%;
         height: 255px;
@@ -90,9 +93,11 @@
     .experts .expert-card h5 {
         padding: 0.5rem 0;
     }
-    .waves {
-        height: 1vh;
-        margin-top: -15px;
+    .videos .video-card {
+        width: 31%;
+    }
+    .videos .video-card .video-image{
+        height: 45%;
     }
 }
 @media screen and (max-width: 834px) {
@@ -146,6 +151,7 @@
         flex-wrap: wrap;
     }
     .service-card {
+        height: 460px;
         margin: 1rem 0.5rem;
         width: 45% !important;
     }
@@ -164,9 +170,8 @@
         width: 45%;
         margin: 1rem 0;
     }
-    .waves {
-        height: 5vh;
-        margin-top: 2px;
+    .videos {
+        margin-top: -.5rem;
     }
 }
 
@@ -229,9 +234,8 @@
         margin-bottom: 2rem;
     }
 
-    .waves {
-        height: 1vh;
-        margin-top: 3px;
+    .videos .video-card {
+        height: 450px;
     }
 }
 @media screen and (max-width: 680px) {
@@ -366,10 +370,6 @@
         width: 95%;
         margin: 1rem 0;
     }
-    .waves {
-        height: 1vh;
-        margin-top: 3px;
-    }
 
     /* Footer */
     footer {
@@ -443,9 +443,5 @@
         width: 100% !important;
         height: 260px !important;
         margin: 1rem 0;
-    }
-    .waves {
-        height: 1vh;
-        margin-top: 2px;
     }
 }
