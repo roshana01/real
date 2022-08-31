@@ -281,13 +281,10 @@ section .home-title {
     position: relative;
     border-radius: 5px;
 }
-.employer-info p:first-child {
+.employer-info p {
     color: #8d8d8d;
     text-align: justify;
     padding: 0.7rem 0;
-}
-.employer-info p:last-child {
-    font-size: 0.8rem;
 }
 
 .employer-info h5 {
